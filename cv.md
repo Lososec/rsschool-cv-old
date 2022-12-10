@@ -83,4 +83,4 @@ I am engaged in setting up and maintaining contextual advertising. At university
 ### Languages
 - English - B1
 - Russian - С2
-- Polish - A2
+- Polish - A1
