@@ -1,15 +1,99 @@
-.header {
-	top:20px;
+@font-face {
+    font-family: Joan-Regular;
+     src: url("assets/fonts/Joan-Regular.ttf");
+   }
+
+body {
+    font-family: 'Joan-Regular';
+    font-size: 16px;
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(60, 41, 10);
+    background-color: #fffbd1;
 }
 
-.main {
-	padding-top:100px;
+header {
+    background-color: #fcf398;
 }
 
-.posLeft {
-	margin-left:-66%;
-}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 
-.posCenter {
-	margin-left:33%;
-}
+  .nav-list {	
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  .nav-list {
+    list-style: none;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(68, 53, 13);
+    transition: .1s;
+  }
+
+  .nav-list :hover {
+    text-decoration: underline;
+    color: rgb(255, 204, 0);
+  }
+
+  .main-container {
+    display: flex;
+  flex-wrap: wrap;
+  }
+
+  .section {
+    width: 50%;
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+  .section-title {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    color: rgb(49, 36, 3);
+  }
+  
+  .git-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(68, 53, 13);
+    transition: .1s;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}		
+
+.year {
+	font-weight: bold;		
+}		
+
+#rss {
+	width: 60px;
+    height: 22px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}	
